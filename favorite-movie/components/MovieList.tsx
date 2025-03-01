@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { ListItem } from '@react-native-material/core'
-import { useFocusEffect, useNavigation } from '@react-navigation/native'
+import { useNavigation } from '@react-navigation/native'
 import { getAllMovies } from '../services/MovieStoreService'
 import { Movie } from '../models/Movie'
 import { ScrollView, StyleSheet, View } from 'react-native'
@@ -11,7 +11,7 @@ export const MovieList: React.FC = () => {
   const navigation = useNavigation<ScreenNavigationProp>()
   const [movies, setMovies] = useState<Movie[]>([])
 
-  useFocusEffect(() => {
+  useEffect(() => {
     getAllMovies().then(result => setMovies(result.movies))
   })
 

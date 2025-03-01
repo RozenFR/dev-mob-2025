@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { ScrollView, StyleSheet, View } from 'react-native'
 import { ListItem } from '@react-native-material/core'
 import { Movie } from '../models/Movie'
-import { useFocusEffect, useNavigation } from '@react-navigation/native'
+import { useNavigation } from '@react-navigation/native'
 import { getAllFavoriteMovies } from '../services/FavoriteMovieStoreService'
 import { ScreenNavigationProp } from '../models/Routing'
 
@@ -10,7 +10,7 @@ export const FavoriteMovieList = () => {
   const navigation = useNavigation<ScreenNavigationProp>()
   const [favoriteMovies, setFavoriteMovies] = React.useState<Movie[]>([])
 
-  useFocusEffect(() => {
+  useEffect(() => {
     getAllFavoriteMovies().then(result => setFavoriteMovies(result.movies))
   })
 
