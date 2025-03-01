@@ -1,6 +1,5 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import {
-  useFocusEffect,
   useNavigation,
   useRoute,
 } from '@react-navigation/native'
@@ -30,7 +29,7 @@ export const MovieDetailsScreen: React.FC = () => {
     )
   }
 
-  useFocusEffect(() => {
+  useEffect(() => {
     getMovie(movieId).then(movie => (movie ? setMovie(movie) : null))
     getFavoriteMovie(movieId).then(movie =>
       movie ? setFavoriteMovie(movie) : undefined,
