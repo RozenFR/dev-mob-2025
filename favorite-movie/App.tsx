@@ -1,20 +1,37 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import {StatusBar} from 'expo-status-bar';
+import {NavigationContainer} from "@react-navigation/native";
+import {createNativeStackNavigator} from "@react-navigation/native-stack";
+import {HomeScreen} from "./screens/HomeScreen";
+import {RootStackParamList} from "./models/Routing";
+import {FavoriteMovieButton} from "./components/FavoriteMovieButton";
+import {FavoriteMoviesScreen} from "./screens/FavoriteMoviesScreen";
+import {MovieDetailsScreen} from "./screens/MovieDetailsScreen";
+
+const Stack = createNativeStackNavigator<RootStackParamList>()
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+    const renderFavoriteMovieButton = () => {
+        return <FavoriteMovieButton/>;
+    }
+
+    return (
+        <NavigationContainer>
+            <StatusBar style="auto"/>
+            <Stack.Navigator>
+                <Stack.Screen
+                    name="Home"
+                    component={HomeScreen}
+                    options={() => {
+                        return {
+                            headerTitle: 'All Movies',
+                            headerRight: () => renderFavoriteMovieButton()
+                        }
+                    }}
+                />
+                <Stack.Screen name="FavoriteMovies" component={FavoriteMoviesScreen}/>
+                <Stack.Screen name="MovieDetails" component={MovieDetailsScreen}/>
+            </Stack.Navigator>
+        </NavigationContainer>
+    );
+}
