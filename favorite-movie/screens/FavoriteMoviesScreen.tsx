@@ -1,8 +1,6 @@
-import React from 'react';
-import {Text} from "react-native";
+import React from 'react'
+import { FavoriteMovieList } from '../components/FavoriteMovieList'
 
 export const FavoriteMoviesScreen: React.FC = () => {
-    return (
-        <Text>Favorite Movies Here</Text>
-    );
+  return <FavoriteMovieList />
 }

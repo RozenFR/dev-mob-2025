@@ -1,25 +1,23 @@
-import React, { useState } from 'react'
-import { ListItem } from '@react-native-material/core'
-import { useFocusEffect, useNavigation } from '@react-navigation/native'
-import { getAllMovies } from '../services/MovieStoreService'
-import { Movie } from '../models/Movie'
+import React from 'react'
 import { ScrollView, StyleSheet, View } from 'react-native'
+import { ListItem } from '@react-native-material/core'
+import { Movie } from '../models/Movie'
+import { useFocusEffect, useNavigation } from '@react-navigation/native'
+import { getAllFavoriteMovies } from '../services/FavoriteMovieStoreService'
 import { ScreenNavigationProp } from '../models/Routing'
-import { AddMovieButton } from './AddMovieButton'
 
-export const MovieList: React.FC = () => {
+export const FavoriteMovieList = () => {
   const navigation = useNavigation<ScreenNavigationProp>()
-  const [movies, setMovies] = useState<Movie[]>([])
+  const [favoriteMovies, setFavoriteMovies] = React.useState<Movie[]>([])
 
   useFocusEffect(() => {
-    getAllMovies().then(result => setMovies(result.movies))
+    getAllFavoriteMovies().then(result => setFavoriteMovies(result.movies))
   })
 
   return (
     <View style={styles.container}>
       <ScrollView>
-        <AddMovieButton />
-        {movies.map(movie => (
+        {favoriteMovies.map(movie => (
           <ListItem
             key={movie.id}
             title={movie.title}

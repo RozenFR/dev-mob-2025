@@ -4,11 +4,7 @@
     {
       "adult": false,
       "backdrop_path": "/1Rr5SrvHxMXHu5RjKpaMba8VTzi.jpg",
-      "genre_ids": [
-        28,
-        12,
-        878
-      ],
+      "genre_ids": [28, 12, 878],
       "id": 634649,
       "original_language": "en",
       "original_title": "Spider-Man: No Way Home",
@@ -24,13 +20,7 @@
     {
       "adult": false,
       "backdrop_path": "/eENEf62tMXbhyVvdcXlnQz2wcuT.jpg",
-      "genre_ids": [
-        878,
-        28,
-        12,
-        10749,
-        35
-      ],
+      "genre_ids": [878, 28, 12, 10749, 35],
       "id": 580489,
       "original_language": "en",
       "original_title": "Venom: Let There Be Carnage",
@@ -46,10 +36,7 @@
     {
       "adult": false,
       "backdrop_path": "/hv7o3VgfsairBoQFAawgaQ4cR1m.jpg",
-      "genre_ids": [
-        28,
-        878
-      ],
+      "genre_ids": [28, 878],
       "id": 624860,
       "original_language": "en",
       "original_title": "The Matrix Resurrections",
@@ -65,12 +52,7 @@
     {
       "adult": false,
       "backdrop_path": "/3G1Q5xF40HkUBJXxt2DQgQzKTp5.jpg",
-      "genre_ids": [
-        16,
-        35,
-        10751,
-        14
-      ],
+      "genre_ids": [16, 35, 10751, 14],
       "id": 568124,
       "original_language": "en",
       "original_title": "Encanto",
@@ -86,12 +68,7 @@
     {
       "adult": false,
       "backdrop_path": "/dK12GIdhGP6NPGFssK2Fh265jyr.jpg",
-      "genre_ids": [
-        28,
-        35,
-        80,
-        53
-      ],
+      "genre_ids": [28, 35, 80, 53],
       "id": 512195,
       "original_language": "en",
       "original_title": "Red Notice",
@@ -107,11 +84,7 @@
     {
       "adult": false,
       "backdrop_path": "/gg2w8QYf6o5elN95RHtikQaVIsc.jpg",
-      "genre_ids": [
-        28,
-        18,
-        80
-      ],
+      "genre_ids": [28, 18, 80],
       "id": 592508,
       "original_language": "hi",
       "original_title": "Sooryavanshi",
@@ -127,11 +100,7 @@
     {
       "adult": false,
       "backdrop_path": "/o76ZDm8PS9791XiuieNB93UZcRV.jpg",
-      "genre_ids": [
-        27,
-        28,
-        878
-      ],
+      "genre_ids": [27, 28, 878],
       "id": 460458,
       "original_language": "en",
       "original_title": "Resident Evil: Welcome to Raccoon City",
@@ -147,11 +116,7 @@
     {
       "adult": false,
       "backdrop_path": "/cinER0ESG0eJ49kXlExM0MEWGxW.jpg",
-      "genre_ids": [
-        28,
-        12,
-        14
-      ],
+      "genre_ids": [28, 12, 14],
       "id": 566525,
       "original_language": "en",
       "original_title": "Shang-Chi and the Legend of the Ten Rings",
@@ -167,11 +132,7 @@
     {
       "adult": false,
       "backdrop_path": "/sLWUtbrpiLp23a0XDSiUiltdFPJ.jpg",
-      "genre_ids": [
-        28,
-        12,
-        14
-      ],
+      "genre_ids": [28, 12, 14],
       "id": 1930,
       "original_language": "en",
       "original_title": "The Amazing Spider-Man",
@@ -187,12 +148,7 @@
     {
       "adult": false,
       "backdrop_path": "/tTlAA0REGPXSZPBfWyTW9ipIv1I.jpg",
-      "genre_ids": [
-        28,
-        12,
-        878,
-        18
-      ],
+      "genre_ids": [28, 12, 878, 18],
       "id": 315635,
       "original_language": "en",
       "original_title": "Spider-Man: Homecoming",
@@ -208,11 +164,7 @@
     {
       "adult": false,
       "backdrop_path": "/1Wlwnhn5sXUIwlxpJgWszT622PS.jpg",
-      "genre_ids": [
-        16,
-        35,
-        10751
-      ],
+      "genre_ids": [16, 35, 10751],
       "id": 585245,
       "original_language": "en",
       "original_title": "Clifford the Big Red Dog",
@@ -228,10 +180,7 @@
     {
       "adult": false,
       "backdrop_path": "/sWvxBXNtCOaGdtpKNLiOqmwb10N.jpg",
-      "genre_ids": [
-        14,
-        28
-      ],
+      "genre_ids": [14, 28],
       "id": 557,
       "original_language": "en",
       "original_title": "Spider-Man",
@@ -247,11 +196,7 @@
     {
       "adult": false,
       "backdrop_path": "/ng6SSB3JhbcpKTwbPDsRwUYK8Cq.jpg",
-      "genre_ids": [
-        28,
-        12,
-        878
-      ],
+      "genre_ids": [28, 12, 878],
       "id": 429617,
       "original_language": "en",
       "original_title": "Spider-Man: Far From Home",
@@ -267,11 +212,7 @@
     {
       "adult": false,
       "backdrop_path": "/zlj0zHo67xXoj7hvwGtaKRkSdBV.jpg",
-      "genre_ids": [
-        878,
-        53,
-        12
-      ],
+      "genre_ids": [878, 53, 12],
       "id": 728526,
       "original_language": "en",
       "original_title": "Encounter",
@@ -287,11 +228,7 @@
     {
       "adult": false,
       "backdrop_path": "/u7SeO6Y42P7VCTWLhpnL96cyOqd.jpg",
-      "genre_ids": [
-        28,
-        12,
-        14
-      ],
+      "genre_ids": [28, 12, 14],
       "id": 102382,
       "original_language": "en",
       "original_title": "The Amazing Spider-Man 2",
@@ -307,12 +244,7 @@
     {
       "adult": false,
       "backdrop_path": "/5B22eed7ErxFiYAG4Ksb4eLwKNF.jpg",
-      "genre_ids": [
-        16,
-        12,
-        35,
-        10751
-      ],
+      "genre_ids": [16, 12, 35, 10751],
       "id": 770254,
       "original_language": "en",
       "original_title": "Back to the Outback",
@@ -328,12 +260,7 @@
     {
       "adult": false,
       "backdrop_path": "/lyvszvJJqqI8aqBJ70XzdCNoK0y.jpg",
-      "genre_ids": [
-        28,
-        12,
-        14,
-        878
-      ],
+      "genre_ids": [28, 12, 14, 878],
       "id": 524434,
       "original_language": "en",
       "original_title": "Eternals",
@@ -349,11 +276,7 @@
     {
       "adult": false,
       "backdrop_path": "/6MQmtWk4cFwSDyNvIgoJRBIHUT3.jpg",
-      "genre_ids": [
-        14,
-        28,
-        12
-      ],
+      "genre_ids": [14, 28, 12],
       "id": 559,
       "original_language": "en",
       "original_title": "Spider-Man 3",
@@ -369,12 +292,7 @@
     {
       "adult": false,
       "backdrop_path": "/srFi3oLy8tBcpq07xusnAE5XhwE.jpg",
-      "genre_ids": [
-        16,
-        35,
-        10751,
-        10402
-      ],
+      "genre_ids": [16, 35, 10751, 10402],
       "id": 438695,
       "original_language": "en",
       "original_title": "Sing 2",
@@ -390,11 +308,7 @@
     {
       "adult": false,
       "backdrop_path": "/xGrTm3J0FTafmuQ85vF7ZCw94x6.jpg",
-      "genre_ids": [
-        18,
-        36,
-        12
-      ],
+      "genre_ids": [18, 36, 12],
       "id": 589761,
       "original_language": "ru",
       "original_title": "Чернобыль",
